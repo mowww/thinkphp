@@ -1,6 +1,7 @@
 admin 存放后台使用到的js
 	image.js  上传图像类
 	login.js  登录类
+    common.js 菜单管理,处理数据的ajax返回
 dialog 存放layer插件的文件
 	layer.js  layer插件文件
 dialog.js 使用layer插件，封装的具体弹出层类

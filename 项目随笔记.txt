@@ -1,0 +1,13 @@
+站点信息，保存在php生成的一个静态页面。
+
+阅读数，使用ajax。
+
+使用layer插件，实现弹出层。封装dialog.js，适合用于本cms的类方法。
+
+异步登录，ajax。而不是跳转。
+
+apache本地设置虚拟域名的方式，将虚拟域名绑定到您的项目根目录
+
+
+重定向到指定的URL地址  redirect('/admin.php')
+重定向到新的模块      $this->redirect('New/category')重定向到New模块的Category操作
