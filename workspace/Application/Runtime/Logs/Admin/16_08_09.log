@@ -1,0 +1,169 @@
+[ 2016-08-09T09:02:37+08:00 ] 127.0.0.1 /admin.php?c=Login&a=Check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0468s ]
+SQL: SELECT * FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0156s ]
+
+[ 2016-08-09T09:57:18+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-08-09T09:57:27+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-09T09:58:56+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0000s ]
+ERR: Think\Model:insert方法不存在！
+
+[ 2016-08-09T10:01:23+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0060s ]
+ERR: Think\Model:insert方法不存在！
+
+[ 2016-08-09T10:02:42+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-08-09T10:03:12+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0060s ]
+ERR: Think\Model:insert方法不存在！
+
+[ 2016-08-09T10:08:01+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0050s ]
+ERR: Think\Model:insert方法不存在！
+
+[ 2016-08-09T10:43:50+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0060s ]
+ERR: Think\Model:insert方法不存在！
+
+[ 2016-08-09T10:46:05+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0060s ]
+ERR: Think\Model:insert方法不存在！
+
+[ 2016-08-09T10:48:54+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0060s ]
+ERR: Think\Model:inst方法不存在！
+
+[ 2016-08-09T10:50:33+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0070s ]
+ERR: Think\Model:inst方法不存在！
+
+[ 2016-08-09T10:52:20+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0060s ]
+
+[ 2016-08-09T10:55:03+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0070s ]
+SQL: INSERT INTO `menu` (`name`,`type`,`m`,`c`,`f`,`status`) VALUES ('a','1','a','a','a','1') [ RunTime:0.0010s ]
+
+[ 2016-08-09T10:55:20+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0060s ]
+SQL: INSERT INTO `menu` (`name`,`type`,`m`,`c`,`f`,`status`) VALUES ('a','1','a','a','a','1') [ RunTime:0.0010s ]
+
+[ 2016-08-09T11:23:09+08:00 ] 127.0.0.1 /admin.php?c=menu
+ERR: Think\Model:getMenuCount方法不存在！
+
+[ 2016-08-09T14:54:45+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-08-09T14:54:48+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-08-09T14:54:49+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-09T14:55:15+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-08-09T14:56:22+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: id C:\wamp\www\tpwww\workspace\Application\Admin\Controller\MenuController.class.php 第 69 行.
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2016-08-09T14:57:16+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: id C:\wamp\www\tpwww\workspace\Application\Admin\Controller\MenuController.class.php 第 69 行.
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2016-08-09T14:57:47+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0050s ]
+
+[ 2016-08-09T14:58:15+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0060s ]
+
+[ 2016-08-09T14:59:46+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0070s ]
+SQL: UPDATE `menu` SET `name`='用户管理',`type`='0',`m`='admin',`c`='admin',`f`='index',`status`='1' WHERE `menu_id` = 13 [ RunTime:0.0010s ]
+
+[ 2016-08-09T15:00:01+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0060s ]
+SQL: UPDATE `menu` SET `name`='用户管理',`type`='1',`m`='admin',`c`='admin',`f`='index',`status`='1' WHERE `menu_id` = 13 [ RunTime:0.0020s ]
+

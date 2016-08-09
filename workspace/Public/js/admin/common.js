@@ -17,12 +17,21 @@ $("#singcms-button-submit").click(function(){
     });
     //将获取到的数据post给服务器
     var url = SCOPE.save_url;
+    var jump_url = SCOPE.jump_url;
     $.post(url,postData,function(result){
             if(result.status==0){
-                dialog.error(result.message);
+                return dialog.error(result.message);
             }
             if(result.status==1){
-                
+                return dialog.success(result.message,jump_url);
             }
     },'JSON');
+});
+/**
+ * 编辑模型页跳转
+ */
+$('.singcms-table #singcms-edit').on('click',function (){
+    var id = $(this).attr('attr-id');
+    var url = SCOPE.edit_url+"&id="+id;
+    window.location.href=url;
 });
