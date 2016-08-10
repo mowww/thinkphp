@@ -7,9 +7,12 @@ index模块处理前台
 ************************公用***************************
 
 ************************************************************
-Application/Common:
-    json_show() 数据转换成json格式
-    getMenuType() getMenuStatus()  转换后台的类型、状态数据,换成易读文字
+Application/Common/function.php:
+    json_show($status,$message='',$data=array()) 数据转换成json格式
+    getMenuType($type)  转换后台的类型数据,换成易读文字
+    getMenuStatus($status)  转换后台的状态数据,换成易读文字
+    getAdminMenu($nav) 设置菜单的url
+    getActive($navc) 设置后台导航栏当前菜单高亮
 ************************************************************
 
 ************************admin模块***************************
@@ -25,6 +28,9 @@ MODEL层
         getMenuCount($data=array())  获取数据总条数
         find($id)    查找要更改的菜单信息
         updateMenuById($id,$data)  更新保存修改后的信息
+        updateStatusById($id,$status) 更新保存修改后的状态信息
+        updateMenuListorderById($id,$listorder) 更新保存修改后的排序信息
+        getAdminMenu()  获取菜单的配置数据
 Controller层
     Index控制器:
         index()  判断session,已登录跳转菜单页，否则到登录页。
@@ -37,6 +43,9 @@ Controller层
         add()  添加菜单操作
         edit() 获取数据的逻辑 
         save($data)  存储修改的逻辑
+        setStatus()  删除菜单操作(修改状态)
+        listorder()  排序操作，修改排序顺序
+
     Common控制器:
         _init() 初始化，根据有无登录，跳转页面。
         getLoginUser() 获取登录用户信息

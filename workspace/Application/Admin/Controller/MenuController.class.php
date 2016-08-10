@@ -77,4 +77,44 @@ class MenuController extends CommonController {
             return json_show(0,$e->getmessage());
         }
     }
+    public function setStatus(){
+        if($_POST){
+            $id = $_POST['id'];
+            $status = $_POST['status'];
+        //执行数据更新操作
+        try{
+                 $id = D('Menu')->updateStatusById($id,$status);
+                 if($id==false){
+                    return json_show(0,"id异常，删除失败！");
+                }
+                 else {
+                    return json_show(1,"删除成功！");
+                 }
+            }catch(Exception $e){
+                return json_show(0,$e->getmessage());
+            }
+        } 
+         return json_show(0,"没有提交数据");
+    }
+    public function listorder(){
+        $errors= array();
+        if($_POST['listorder']){
+            $listorder = $_POST['listorder'];
+            foreach ($listorder as $menuid => $value) {
+               try{
+                    $id = D('Menu')->updateMenuListorderById($menuid,$value);
+                    if($id===false){
+                        $error[]=$menuid;
+                    }
+               }catch(Exception $e){
+                     return json_show(0,$e->getmessage());
+               }
+            }        
+            if($error){
+                return json_show(0,'排序失败-'.implode(',',$errors));
+            }
+            return json_show(1,'排序数据成功');
+        }
+        return json_show(0,'排序数据异常');
+    }
 }
