@@ -13,6 +13,12 @@ Application/Common/function.php:
     getMenuStatus($status)  转换后台的状态数据,换成易读文字
     getAdminMenu($nav) 设置菜单的url
     getActive($navc) 设置后台导航栏当前菜单高亮
+    kind_show($status,$data) kindeditor数据返回(封装kindeditor的格式)
+    getLoginUserName() 获取登录用户的用户名
+    getCatName() 转换后台的菜单名数据,换成易读文字
+    getNewsStatus() 转换后台的状态数据,换成易读文字
+    getNewsCopyfrom() 转换后台的来源数据,换成易读文字
+    isThumb() 判断是否有封面,换成易读文字
 ************************************************************
 
 ************************admin模块***************************
@@ -31,6 +37,16 @@ MODEL层
         updateStatusById($id,$status) 更新保存修改后的状态信息
         updateMenuListorderById($id,$listorder) 更新保存修改后的排序信息
         getAdminMenu()  获取菜单的配置数据
+        getbarmenus() 获取前端的导航数据
+    UploadImage类:    
+        upload()  编辑器内部图片上传
+        imageUpload() 图片上传
+    NewsModel类:
+        insert() 插入文章数据到news表
+        getNews() 根据页数，获取下一页数据
+        getNewsCount() 获取数据总条数
+    NewsContentModel类:
+        insert() 插入文章数据到news_content表 
 Controller层
     Index控制器:
         index()  判断session,已登录跳转菜单页，否则到登录页。
@@ -45,11 +61,17 @@ Controller层
         save($data)  存储修改的逻辑
         setStatus()  删除菜单操作(修改状态)
         listorder()  排序操作，修改排序顺序
-
+    Image控制器继承common:
+        kindUpload() 编辑器内部图片上传
+        ajaxUploadImage() 文章缩略图上传
+    Content控制器继承common:
+        index() 获取搜索条件，并传到model，有条件获取数据
+        add() 获取前端的导航信息返回到前台、存储添加的文章信息逻辑
     Common控制器:
-        _init() 初始化，根据有无登录，跳转页面。
+        _init() 初始化，根据有无登录，跳转页面。每次访问关于后台的页面，都会检验登录。登录过期(session过期)，就跳转到登陆界面。
         getLoginUser() 获取登录用户信息
         isLogin() 判定是否登录
+
 
 ************************************************************
 

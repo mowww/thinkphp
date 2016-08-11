@@ -78,4 +78,12 @@ class MenuModel extends Model{
 
          return $this->_db->where($data)->order('listorder asc,menu_id asc')->select();
     }
+    public function getBarMenus(){
+        $data = array(
+            'status'=>array('neq',-1),
+            'type' => 0,
+        );
+         return $this->_db->where($data)->order('listorder asc,menu_id asc')->select();
+    }
+   
 }

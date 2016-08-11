@@ -1,0 +1,9 @@
+[ 2016-08-10T14:57:42+08:00 ] 127.0.0.1 /admin.php?c=admin&a=personal
+ERR: 无法加载控制器:Admin
+
+[ 2016-08-10T16:43:59+08:00 ] 127.0.0.1 /admin.php?c=content&a=index
+ERR: 无法加载控制器:Content
+
+[ 2016-08-10T16:44:09+08:00 ] 127.0.0.1 /admin.php?c=position
+ERR: 无法加载控制器:Position
+

@@ -1,0 +1,46 @@
+************************************************************
+
+************************添加文章****************************
+
+************************************************************
+一、缩略图上传
+1.uploadify插件使用
+2.使用tp自带的图片上传类 
+ 例： new  \Think\Upload(); 
+3.异步处理图片上传
+    js/admin/image.js  获取图片数据，传送到后台
+    Image控制器  ajaxUploadImage()逻辑
+    UploadImageModel    imageUpload() 图片上传
+二、kindeditor编辑器内部图片上传
+1.异步图片上传
+    Common/function.php   kind_show($status,$data)kindeditor数据返回(封装kindeditor的格式)
+    Image控制器     kindUpload()逻辑
+    UploadImagemodel  upload()图片上传
+三、添加功能开发
+1.将数据库的导航信息、配置中的标题颜色、来源传递到文章添加页中。
+    Menumodel getbarmenus() 获取前端的导航
+    Content控制器 add() 逻辑
+    模板设置
+2.数据存到news、newscontent,文章content内容存在副表newscontent中
+    NewsModel insert() 插入数据到news表
+    NewsContentModel insert() 插入数据到news_content表 
+    Conmon/function.php getLoginUserName() 获取登录用户的用户名
+************************************************************
+
+************************文章列表展示****************************
+
+************************************************************
+功能:文章列表页展示 分页   搜索功能
+1.数据库读取
+    NewsModel  getNews() 根据页数，获取下一页数据 getNewsCount() 获取数据总条数
+    Content控制器 index() 获取搜索条件，并传到model，有条件获取数据
+2.模板填充
+3.数据转换成文字
+Common/function.php: 
+    getCatName() 转换后台的菜单名数据,换成易读文字
+    getNewsStatus() 转换后台的状态数据,换成易读文字
+    getNewsCopyfrom() 转换后台的来源数据,换成易读文字
+    isThumb() 判断是否有封面,换成易读文字
+    
+     
+    
