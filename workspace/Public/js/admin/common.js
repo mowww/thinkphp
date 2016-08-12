@@ -91,3 +91,58 @@ $("#button-listorder").click(function(){
             }
     },'JSON');
 });
+/**
+ * 修改状态(文章的状态：正常1关闭0)
+ */
+$('.singcms-table #singcms-on-off').on('click', function(){
+
+    var id = $(this).attr('attr-id');
+    var status = $(this).attr("attr-status");
+    var url = SCOPE.set_status_url;
+
+    data = {};
+    data['id'] = id;
+    data['status'] = status;
+
+    layer.open({
+        type : 0,
+        title : '是否提交？',
+        btn: ['yes', 'no'],
+        icon : 3,
+        closeBtn : 2,
+        content: "是否确定更改状态",
+        scrollbar: true,
+        yes: function(){
+            // 执行相关跳转
+            todelete(url, data);
+        },
+
+    });
+
+});
+/**
+ * 推送JS相关
+ */
+$('#singcms-push').on('click',function(){
+    var id = $('#select-push').val();
+    if(!id){
+        return dialog.error('请选择推荐位');
+    }
+    push={};
+    postData={};
+    $("input[name='pushcheck']:checked").each(function(i){
+        push[i] = $(this).val();
+    });
+     postData['push']= push;
+     postData['position_id']=id;
+     //将获取到的数据post给服务器
+    var url = SCOPE.push_url;
+    $.post(url,postData,function(result){
+            if(result.status==0){
+                return dialog.error(result.message);
+            }
+            if(result.status==1){
+                return dialog.success(result.message,window.location.href);
+            }
+    },'JSON');
+});

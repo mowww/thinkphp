@@ -1,0 +1,718 @@
+[ 2016-08-12T08:50:10+08:00 ] 127.0.0.1 /admin.php?c=Login&a=Check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0624s ]
+SQL: SELECT * FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-12T09:18:01+08:00 ] 127.0.0.1 /admin.php?c=content&a=edit&id=20
+ERR: Think\Model:filed方法不存在！
+
+[ 2016-08-12T09:18:02+08:00 ] 127.0.0.1 /admin.php?c=content&a=edit&id=20
+ERR: Think\Model:filed方法不存在！
+
+[ 2016-08-12T09:18:08+08:00 ] 127.0.0.1 /admin.php?c=content&a=edit&id=20
+ERR: Think\Model:flied方法不存在！
+
+[ 2016-08-12T10:03:06+08:00 ] 127.0.0.1 /admin.php?c=content&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: UPDATE `news` SET `title`='update',`small_title`='2',`thumb`='/upload/2016/08/11/57ac281f7d963.png',`title_font_color`='#ed568b',`catid`='8',`copyfrom`='0',`description`='2',`keywords`='2',`update_time`='1470967386' WHERE `news_id` = 33 [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\NewsContentModel.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `news_content` [ RunTime:0.0196s ]
+SQL: UPDATE `news_content` SET `content`='update',`update_time`='1470967386' WHERE `news_id` = 33 [ RunTime:0.0010s ]
+
+[ 2016-08-12T10:34:54+08:00 ] 127.0.0.1 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: UPDATE `news` SET `status`='-1' WHERE `news_id` = 33 [ RunTime:0.0000s ]
+
+[ 2016-08-12T10:50:07+08:00 ] 127.0.0.1 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: UPDATE `news` SET `status`='1' WHERE `news_id` = 1 [ RunTime:0.0000s ]
+
+[ 2016-08-12T10:51:46+08:00 ] 127.0.0.1 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: UPDATE `news` SET `status`='1' WHERE `news_id` = 17 [ RunTime:0.0000s ]
+
+[ 2016-08-12T10:52:45+08:00 ] 127.0.0.1 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0060s ]
+SQL: UPDATE `news` SET `status`='1' WHERE `news_id` = 17 [ RunTime:0.0010s ]
+
+[ 2016-08-12T10:55:10+08:00 ] 127.0.0.1 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0060s ]
+SQL: UPDATE `news` SET `status`='1' WHERE `news_id` = 17 [ RunTime:0.0010s ]
+
+[ 2016-08-12T10:57:53+08:00 ] 127.0.0.1 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: UPDATE `news` SET `status`='1' WHERE `news_id` = 17 [ RunTime:0.0000s ]
+
+[ 2016-08-12T10:58:17+08:00 ] 127.0.0.1 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: UPDATE `news` SET `status`='1' WHERE `news_id` = 17 [ RunTime:0.0000s ]
+
+[ 2016-08-12T10:59:37+08:00 ] 127.0.0.1 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0070s ]
+SQL: UPDATE `news` SET `status`='1' WHERE `news_id` = 17 [ RunTime:0.0010s ]
+
+[ 2016-08-12T11:02:59+08:00 ] 127.0.0.1 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: UPDATE `news` SET `status`='0' WHERE `news_id` = 17 [ RunTime:0.0000s ]
+
+[ 2016-08-12T11:03:04+08:00 ] 127.0.0.1 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: UPDATE `news` SET `status`='1' WHERE `news_id` = 17 [ RunTime:0.0000s ]
+
+[ 2016-08-12T11:03:43+08:00 ] 127.0.0.1 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+SQL: UPDATE `news` SET `status`='0' WHERE `news_id` = 17 [ RunTime:0.0000s ]
+
+[ 2016-08-12T11:03:46+08:00 ] 127.0.0.1 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: UPDATE `news` SET `status`='1' WHERE `news_id` = 17 [ RunTime:0.0000s ]
+
+[ 2016-08-12T13:09:06+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Undefined index: listorder C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 141 行.
+
+[ 2016-08-12T13:10:27+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: listorder C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 141 行.
+
+[ 2016-08-12T13:11:07+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: listorder C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 141 行.
+
+[ 2016-08-12T13:11:11+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: listorder C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 141 行.
+
+[ 2016-08-12T13:12:43+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: listorder C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 141 行.
+
+[ 2016-08-12T13:16:22+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: listorder C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 141 行.
+
+[ 2016-08-12T13:17:31+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: listorder C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 141 行.
+
+[ 2016-08-12T13:17:37+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: listorder C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 141 行.
+
+[ 2016-08-12T13:18:21+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: listorder C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 141 行.
+NOTIC: [8] Undefined index: listorder C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 159 行.
+
+[ 2016-08-12T13:18:32+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: listorder C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 141 行.
+NOTIC: [8] Undefined index: listorder C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 159 行.
+
+[ 2016-08-12T13:18:57+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: listorder C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 141 行.
+
+[ 2016-08-12T13:21:06+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: listorder C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 142 行.
+
+[ 2016-08-12T13:21:33+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: listorder C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 141 行.
+NOTIC: [8] Undefined index: listorder C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 142 行.
+
+[ 2016-08-12T13:22:05+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: listorder C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 141 行.
+NOTIC: [8] Undefined index: listorder C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 142 行.
+
+[ 2016-08-12T13:22:06+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: listorder C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 141 行.
+NOTIC: [8] Undefined index: listorder C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 142 行.
+
+[ 2016-08-12T13:24:37+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: listorder C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 142 行.
+
+[ 2016-08-12T13:25:38+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0060s ]
+ERR: Think\Model:updateNewListorderById方法不存在！
+
+[ 2016-08-12T13:26:25+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: UPDATE `news` SET `listorder`='0' WHERE `news_id` = 20 [ RunTime:0.0000s ]
+SQL: UPDATE `news` SET `listorder`='0' WHERE `news_id` = 21 [ RunTime:0.0000s ]
+SQL: UPDATE `news` SET `listorder`='0' WHERE `news_id` = 24 [ RunTime:0.0156s ]
+SQL: UPDATE `news` SET `listorder`='1' WHERE `news_id` = 17 [ RunTime:0.0000s ]
+SQL: UPDATE `news` SET `listorder`='1' WHERE `news_id` = 23 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: error C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 155 行.
+
+[ 2016-08-12T13:26:44+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0060s ]
+SQL: UPDATE `news` SET `listorder`='0' WHERE `news_id` = 20 [ RunTime:0.0010s ]
+SQL: UPDATE `news` SET `listorder`='0' WHERE `news_id` = 21 [ RunTime:0.0000s ]
+SQL: UPDATE `news` SET `listorder`='0' WHERE `news_id` = 24 [ RunTime:0.0000s ]
+SQL: UPDATE `news` SET `listorder`='100' WHERE `news_id` = 17 [ RunTime:0.0000s ]
+SQL: UPDATE `news` SET `listorder`='1' WHERE `news_id` = 23 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: error C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 154 行.
+
+[ 2016-08-12T13:27:20+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: UPDATE `news` SET `listorder`='0' WHERE `news_id` = 17 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: error C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 154 行.
+
+[ 2016-08-12T13:43:55+08:00 ] 127.0.0.1 /admin.php?c=position
+ERR: 无法加载控制器:Position
+
+[ 2016-08-12T13:50:39+08:00 ] 127.0.0.1 /admin.php?c=position&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0000s ]
+SQL: UPDATE `position` SET `status`='0' WHERE ( id=2 ) [ RunTime:0.0000s ]
+
+[ 2016-08-12T13:50:40+08:00 ] 127.0.0.1 /admin.php?c=position&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [2048] Declaration of Admin\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0000s ]
+SQL: UPDATE `position` SET `status`='0' WHERE ( id=2 ) [ RunTime:0.0000s ]
+
+[ 2016-08-12T13:53:14+08:00 ] 127.0.0.1 /admin.php?c=basic
+ERR: 无法加载控制器:Basic
+
+[ 2016-08-12T13:54:25+08:00 ] 127.0.0.1 /admin.php?c=menu&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0060s ]
+SQL: UPDATE `menu` SET `listorder`='0' WHERE `menu_id` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `menu` SET `listorder`='1' WHERE `menu_id` = 7 [ RunTime:0.0010s ]
+SQL: UPDATE `menu` SET `listorder`='2' WHERE `menu_id` = 11 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: error C:\wamp\www\tpwww\workspace\Application\Admin\Controller\MenuController.class.php 第 113 行.
+
+[ 2016-08-12T13:55:00+08:00 ] 127.0.0.1 /admin.php?c=menu&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0060s ]
+SQL: UPDATE `menu` SET `listorder`='1' WHERE `menu_id` = 6 [ RunTime:0.0010s ]
+SQL: UPDATE `menu` SET `listorder`='100' WHERE `menu_id` = 12 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: error C:\wamp\www\tpwww\workspace\Application\Admin\Controller\MenuController.class.php 第 113 行.
+
+[ 2016-08-12T13:55:18+08:00 ] 127.0.0.1 /admin.php?c=menu&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0050s ]
+SQL: UPDATE `menu` SET `listorder`='0' WHERE `menu_id` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `menu` SET `listorder`='1' WHERE `menu_id` = 6 [ RunTime:0.0010s ]
+SQL: UPDATE `menu` SET `listorder`='4' WHERE `menu_id` = 7 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: error C:\wamp\www\tpwww\workspace\Application\Admin\Controller\MenuController.class.php 第 113 行.
+
+[ 2016-08-12T13:55:29+08:00 ] 127.0.0.1 /admin.php?c=menu&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0070s ]
+SQL: UPDATE `menu` SET `listorder`='3' WHERE `menu_id` = 11 [ RunTime:0.0010s ]
+SQL: UPDATE `menu` SET `listorder`='3' WHERE `menu_id` = 3 [ RunTime:0.0010s ]
+SQL: UPDATE `menu` SET `listorder`='4' WHERE `menu_id` = 7 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: error C:\wamp\www\tpwww\workspace\Application\Admin\Controller\MenuController.class.php 第 113 行.
+
+[ 2016-08-12T13:55:36+08:00 ] 127.0.0.1 /admin.php?c=menu&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0060s ]
+SQL: UPDATE `menu` SET `listorder`='2' WHERE `menu_id` = 9 [ RunTime:0.0000s ]
+SQL: UPDATE `menu` SET `listorder`='100' WHERE `menu_id` = 12 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: error C:\wamp\www\tpwww\workspace\Application\Admin\Controller\MenuController.class.php 第 113 行.
+
+[ 2016-08-12T13:56:17+08:00 ] 127.0.0.1 /admin.php?c=position&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0060s ]
+SQL: UPDATE `position` SET `status`='1' WHERE ( id=2 ) [ RunTime:0.0000s ]
+
+[ 2016-08-12T13:57:07+08:00 ] 127.0.0.1 /admin.php?c=position&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0060s ]
+SQL: UPDATE `position` SET `status`='0' WHERE ( id=2 ) [ RunTime:0.0000s ]
+
+[ 2016-08-12T13:57:11+08:00 ] 127.0.0.1 /admin.php?c=position&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2048] Declaration of Admin\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0060s ]
+SQL: UPDATE `position` SET `status`='1' WHERE ( id=2 ) [ RunTime:0.0010s ]
+
+[ 2016-08-12T13:57:26+08:00 ] 127.0.0.1 /admin.php?c=position&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0050s ]
+SQL: UPDATE `position` SET `name`='首页大图1',`description`='展示首页大图的图片' WHERE ( id=2 ) [ RunTime:0.0010s ]
+
+[ 2016-08-12T13:57:32+08:00 ] 127.0.0.1 /admin.php?c=position&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0050s ]
+SQL: UPDATE `position` SET `name`='首页大图',`description`='展示首页大图的图片' WHERE ( id=2 ) [ RunTime:0.0010s ]
+
+[ 2016-08-12T13:57:39+08:00 ] 127.0.0.1 /admin.php?c=position&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0070s ]
+SQL: UPDATE `position` SET `name`='首页大图',`description`='展示首页大图的推荐位' WHERE ( id=2 ) [ RunTime:0.0010s ]
+
+[ 2016-08-12T13:57:44+08:00 ] 127.0.0.1 /admin.php?c=position&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0060s ]
+SQL: UPDATE `position` SET `status`='-1' WHERE ( id=2 ) [ RunTime:0.0010s ]
+
+[ 2016-08-12T15:16:09+08:00 ] 127.0.0.1 /admin.php?c=content&a=push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: push C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 169 行.
+
+[ 2016-08-12T15:16:12+08:00 ] 127.0.0.1 /admin.php?c=content&a=push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: push C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 169 行.
+
+[ 2016-08-12T15:17:01+08:00 ] 127.0.0.1 /admin.php?c=content&a=push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0070s ]
+ERR: Think\Model:getNewsByNewsIdIn方法不存在！
+
+[ 2016-08-12T15:17:24+08:00 ] 127.0.0.1 /admin.php?c=content&a=push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `news` WHERE `news_id` IN ('24')  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: positonId C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 181 行.
+SQL: SHOW COLUMNS FROM `position_content` [ RunTime:0.0060s ]
+ERR: Think\Model:insert方法不存在！
+
+[ 2016-08-12T15:20:13+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: UPDATE `news` SET `listorder`='0' WHERE `news_id` = 17 [ RunTime:0.0000s ]
+SQL: UPDATE `news` SET `listorder`='0' WHERE `news_id` = 20 [ RunTime:0.0000s ]
+SQL: UPDATE `news` SET `listorder`='0' WHERE `news_id` = 21 [ RunTime:0.0010s ]
+SQL: UPDATE `news` SET `listorder`='0' WHERE `news_id` = 22 [ RunTime:0.0010s ]
+SQL: UPDATE `news` SET `listorder`='0' WHERE `news_id` = 24 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: error C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 156 行.
+
+[ 2016-08-12T15:20:18+08:00 ] 127.0.0.1 /admin.php?c=content&a=push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `news` WHERE `news_id` IN ('24')  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: positonId C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 181 行.
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `position_content` [ RunTime:0.0050s ]
+ERR: 1048:Le champ 'position_id' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES (NULL,'中超-汪嵩世界波制胜 富力客场1-0力擒泰达','/upload/2016/03/13/56e51fc82b13a.png','24','1','1457856460')
+ERR: 1048:Le champ 'position_id' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES (NULL,'中超-汪嵩世界波制胜 富力客场1-0力擒泰达','/upload/2016/03/13/56e51fc82b13a.png','24','1','1457856460')
+
+[ 2016-08-12T15:21:42+08:00 ] 127.0.0.1 /admin.php?c=content&a=push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `news` WHERE `news_id` IN ('24')  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `position_content` [ RunTime:0.0156s ]
+SQL: INSERT INTO `position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('2','中超-汪嵩世界波制胜 富力客场1-0力擒泰达','/upload/2016/03/13/56e51fc82b13a.png','24','1','1457856460') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: jumpUrl C:\wamp\www\tpwww\workspace\Application\Admin\Controller\ContentController.class.php 第 194 行.
+
+[ 2016-08-12T15:27:22+08:00 ] 127.0.0.1 /admin.php?c=positioncontent
+ERR: 无法加载控制器:Positioncontent
+
+[ 2016-08-12T15:45:23+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:listorder
+
+[ 2016-08-12T15:45:25+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+ERR: 非法操作:listorder
+
+[ 2016-08-12T16:03:24+08:00 ] 127.0.0.1 /admin.php?c=basic
+ERR: 无法加载控制器:Basic
+
+[ 2016-08-12T16:04:22+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=add
+ERR: Think\Model:getNormalPositions方法不存在！
+
+[ 2016-08-12T16:09:37+08:00 ] 127.0.0.1 /admin.php?c=position&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\tpwww\workspace\Application\Admin\Controller\PositionController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Admin\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0050s ]
+SQL: INSERT INTO `position` (`name`,`description`,`status`,`create_time`) VALUES ('11','11','1','1470989377') [ RunTime:0.0000s ]
+
+[ 2016-08-12T16:09:42+08:00 ] 127.0.0.1 /admin.php?c=position&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0000s ]
+SQL: UPDATE `position` SET `status`='-1' WHERE ( id=6 ) [ RunTime:0.0000s ]
+
+[ 2016-08-12T16:10:52+08:00 ] 127.0.0.1 /admin.php?c=PositionContent
+ERR: 无法加载控制器:PositionContent
+
+[ 2016-08-12T16:13:55+08:00 ] 127.0.0.1 /admin.php?c=PositionContent
+ERR: 无法加载控制器:PositionContent
+
+[ 2016-08-12T16:14:00+08:00 ] 127.0.0.1 /admin.php?c=PositionContent
+ERR: 无法加载控制器:PositionContent
+
+[ 2016-08-12T16:14:15+08:00 ] 127.0.0.1 /admin.php?c=PositionContent
+ERR: 无法加载控制器:PositionContent
+
+[ 2016-08-12T16:14:16+08:00 ] 127.0.0.1 /admin.php?c=PositionContent
+ERR: 无法加载控制器:PositionContent
+
+[ 2016-08-12T16:14:16+08:00 ] 127.0.0.1 /admin.php?c=PositionContent
+ERR: 无法加载控制器:PositionContent
+
+[ 2016-08-12T16:14:18+08:00 ] 127.0.0.1 /admin.php?c=PositionContent
+ERR: 无法加载控制器:PositionContent
+
+[ 2016-08-12T16:33:36+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\tpwww\workspace\Application\Admin\Controller\PositioncontentController.class.php 第 62 行.
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::select() should be compatible with Think\Model::select($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `position_content` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: create_time C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 55 行.
+SQL: INSERT INTO `position_content` (`title`,`position_id`,`thumb`,`url`,`news_id`,`status`,`create_time`) VALUES ('q','2','/upload/2016/08/12/57ad89dcef806.png','q','0','1','1470990816') [ RunTime:0.0010s ]
+
+[ 2016-08-12T16:33:38+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\tpwww\workspace\Application\Admin\Controller\PositioncontentController.class.php 第 62 行.
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::select() should be compatible with Think\Model::select($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `position_content` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: create_time C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 55 行.
+SQL: INSERT INTO `position_content` (`title`,`position_id`,`thumb`,`url`,`news_id`,`status`,`create_time`) VALUES ('q','2','/upload/2016/08/12/57ad89dcef806.png','q','0','1','1470990818') [ RunTime:0.0000s ]
+
+[ 2016-08-12T16:33:59+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\tpwww\workspace\Application\Admin\Controller\PositioncontentController.class.php 第 62 行.
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::select() should be compatible with Think\Model::select($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `position_content` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: create_time C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 55 行.
+SQL: INSERT INTO `position_content` (`title`,`position_id`,`thumb`,`url`,`news_id`,`status`,`create_time`) VALUES ('q','2','/upload/2016/08/12/57ad89dcef806.png','q','0','1','1470990839') [ RunTime:0.0000s ]
+
+[ 2016-08-12T16:35:15+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\tpwww\workspace\Application\Admin\Controller\PositioncontentController.class.php 第 62 行.
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::select() should be compatible with Think\Model::select($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `position_content` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: create_time C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 55 行.
+SQL: INSERT INTO `position_content` (`title`,`position_id`,`thumb`,`url`,`news_id`,`status`,`create_time`) VALUES ('q','2','/upload/2016/08/12/57ad8a3f68f02.png','q','0','1','1470990915') [ RunTime:0.0000s ]
+
+[ 2016-08-12T16:35:42+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+ERR: 非法操作:listorder
+
+[ 2016-08-12T16:35:45+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:listorder
+
+[ 2016-08-12T16:36:24+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:listorder
+
+[ 2016-08-12T16:39:11+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::select() should be compatible with Think\Model::select($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `position_content` [ RunTime:0.0000s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2016-08-12T16:39:13+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::select() should be compatible with Think\Model::select($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `position_content` [ RunTime:0.0000s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2016-08-12T16:40:15+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-08-12T16:40:55+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-12T16:41:12+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::select() should be compatible with Think\Model::select($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `position_content` [ RunTime:0.0000s ]
+SQL: UPDATE `position_content` SET `listorder`='0' WHERE ( id=38 ) [ RunTime:0.0000s ]
+SQL: UPDATE `position_content` SET `listorder`='0' WHERE ( id=26 ) [ RunTime:0.0000s ]
+SQL: UPDATE `position_content` SET `listorder`='0' WHERE ( id=32 ) [ RunTime:0.0000s ]
+SQL: UPDATE `position_content` SET `listorder`='0' WHERE ( id=33 ) [ RunTime:0.0000s ]
+SQL: UPDATE `position_content` SET `listorder`='0' WHERE ( id=25 ) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: error C:\wamp\www\tpwww\workspace\Application\Admin\Controller\PositioncontentController.class.php 第 130 行.
+
+[ 2016-08-12T16:41:20+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::select() should be compatible with Think\Model::select($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `position_content` [ RunTime:0.0000s ]
+SQL: UPDATE `position_content` SET `listorder`='0' WHERE ( id=38 ) [ RunTime:0.0000s ]
+SQL: UPDATE `position_content` SET `listorder`='0' WHERE ( id=26 ) [ RunTime:0.0000s ]
+SQL: UPDATE `position_content` SET `listorder`='0' WHERE ( id=32 ) [ RunTime:0.0000s ]
+SQL: UPDATE `position_content` SET `listorder`='0' WHERE ( id=33 ) [ RunTime:0.0000s ]
+SQL: UPDATE `position_content` SET `listorder`='1' WHERE ( id=25 ) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: error C:\wamp\www\tpwww\workspace\Application\Admin\Controller\PositioncontentController.class.php 第 130 行.
+
+[ 2016-08-12T16:41:41+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:setStatus
+
+[ 2016-08-12T16:41:43+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:setStatus
+
+[ 2016-08-12T16:41:48+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:setStatus
+
+[ 2016-08-12T16:44:07+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::select() should be compatible with Think\Model::select($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `position_content` [ RunTime:0.0070s ]
+SQL: UPDATE `position_content` SET `status`='0' WHERE ( id=28 ) [ RunTime:0.0000s ]
+
+[ 2016-08-12T16:44:14+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::select() should be compatible with Think\Model::select($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `position_content` [ RunTime:0.0000s ]
+SQL: UPDATE `position_content` SET `status`='1' WHERE ( id=28 ) [ RunTime:0.0000s ]
+
+[ 2016-08-12T16:44:50+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::select() should be compatible with Think\Model::select($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `position_content` [ RunTime:0.0060s ]
+SQL: UPDATE `position_content` SET `title`='q',`position_id`='3',`thumb`='/upload/2016/08/12/57ad8a3f68f02.png',`url`='q',`news_id`='0',`status`='1' WHERE ( id=38 ) [ RunTime:0.0010s ]
+
+[ 2016-08-12T16:45:01+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::select() should be compatible with Think\Model::select($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `position_content` [ RunTime:0.0060s ]
+SQL: UPDATE `position_content` SET `title`='qqqq',`position_id`='3',`thumb`='/upload/2016/08/12/57ad8a3f68f02.png',`url`='qqqq',`news_id`='1',`status`='1' WHERE ( id=38 ) [ RunTime:0.0010s ]
+
+[ 2016-08-12T16:45:11+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::select() should be compatible with Think\Model::select($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `position_content` [ RunTime:0.0060s ]
+SQL: UPDATE `position_content` SET `title`='qqqq',`position_id`='3',`thumb`='/upload/2016/08/12/57ad8a3f68f02.png',`url`='qqqq',`news_id`='1',`status`='0' WHERE ( id=38 ) [ RunTime:0.0010s ]
+
+[ 2016-08-12T16:45:15+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::select() should be compatible with Think\Model::select($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `position_content` [ RunTime:0.0000s ]
+SQL: UPDATE `position_content` SET `status`='-1' WHERE ( id=38 ) [ RunTime:0.0000s ]
+

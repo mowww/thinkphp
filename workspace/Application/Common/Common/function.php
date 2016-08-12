@@ -3,7 +3,7 @@
  * @Author: wuweiwei
  * @Date:   2016-08-08 09:38:24
  * @Last Modified by:   wuweiwei
- * @Last Modified time: 2016-08-11 17:22:34
+ * @Last Modified time: 2016-08-12 16:20:38
  */
     /**
      * 数据转换成json格式,用于返回到前台
@@ -33,7 +33,7 @@
      * @param  num $status 菜单标识 
      * @return [type]         [description]
      */
-    function getMenuStatus($status){
+    function getStatus($status){
         if($status==0){
             $str ="关闭";
         }
@@ -96,6 +96,16 @@
             return $nav['name'];
         }
     }
+     /**
+      *  转换后台的推荐位数据,换成易读文字
+      * @return [type] [description]
+      */
+    function getPositionName($positions,$id){
+        foreach($positions as $ps){
+            if($ps['id']==$id)
+            return $ps['name'];
+        }
+    }
     /**
       *  转换后台的来源数据,换成易读文字
       * @return [type] [description]
@@ -103,22 +113,6 @@
     function getCopyFromById($id){
         $copy = C('COPY_FROM');
         return $copy[$id] ? $copy[$id] : '';
-    }
-    /**
-      *  转换后台的状态数据,换成易读文字
-      * @return [type] [description]
-      */
-    function getNewStatus($status){
-         if($status==0){
-                $str ="关闭";
-            }
-            if($status==1){
-                $str="正常";
-            }
-            if($status==-1){
-                $str="删除";
-            }
-            return $str;
     }
     /**
       *  判断是否有封面,换成易读文字

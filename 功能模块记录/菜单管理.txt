@@ -17,7 +17,7 @@
 2.分页展示 
     MenuModel  getmMenuCount()获取数据总条数   getmMenu() 根据页码、每页显示条数，获取相应数据 
     Menu控制器 index() 实例化框架的分页类，赋值到模板，实现菜单列表、分页操作
-    Common/function.php  getMenuType() getMenuStatus()  转换后台的类型、状态数据,换成易读文字
+    Common/function.php  getMenuType() getStatus()  转换后台的类型、状态数据,换成易读文字
     模板操作
 3.增加按条件搜索
     Menu控制器 index()  填加数据查找条件，前后台根据type参数，搜索展示。

@@ -10,13 +10,12 @@ index模块处理前台
 Application/Common/function.php:
     json_show($status,$message='',$data=array()) 数据转换成json格式
     getMenuType($type)  转换后台的类型数据,换成易读文字
-    getMenuStatus($status)  转换后台的状态数据,换成易读文字
+    getStatus($status)  转换后台的状态数据,换成易读文字
     getAdminMenu($nav) 设置菜单的url
     getActive($navc) 设置后台导航栏当前菜单高亮
     kind_show($status,$data) kindeditor数据返回(封装kindeditor的格式)
     getLoginUserName() 获取登录用户的用户名
     getCatName() 转换后台的菜单名数据,换成易读文字
-    getNewsStatus() 转换后台的状态数据,换成易读文字
     getNewsCopyfrom() 转换后台的来源数据,换成易读文字
     isThumb() 判断是否有封面,换成易读文字
 ************************************************************
@@ -45,8 +44,15 @@ MODEL层
         insert() 插入文章数据到news表
         getNews() 根据页数，获取下一页数据
         getNewsCount() 获取数据总条数
+        find($id) 获取主表要修改的文章数据操作
+        updateNewsById($id,$data) 存储主表要修改的文章数据操作
+        updateStatusById($id,$status) 更改状态
+        updateNewListorderById($id,$listorder) 更新保存修改后的排序信息
+        getNewsByIdArray() 根据数组内的多个文章id,获取多条文章数据
     NewsContentModel类:
         insert() 插入文章数据到news_content表 
+        find($id) 获取副表要修改的文章数据操作
+        updateNewsById($id,$data) 存储主表要修改的文章数据操作
 Controller层
     Index控制器:
         index()  判断session,已登录跳转菜单页，否则到登录页。
@@ -67,6 +73,11 @@ Controller层
     Content控制器继承common:
         index() 获取搜索条件，并传到model，有条件获取数据
         add() 获取前端的导航信息返回到前台、存储添加的文章信息逻辑
+        edit() 获取要修改的文章数据逻辑
+        save() 存储要修改的文章数据逻辑
+        setStatus() 更改状态
+        listorder()  排序操作，修改排序顺序
+        push() 存储文章信息到推荐位表
     Common控制器:
         _init() 初始化，根据有无登录，跳转页面。每次访问关于后台的页面，都会检验登录。登录过期(session过期)，就跳转到登陆界面。
         getLoginUser() 获取登录用户信息

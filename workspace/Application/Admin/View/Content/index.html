@@ -73,8 +73,8 @@
                 <tbody class="text-center">
                   <volist name="list" id="new">
                       <tr >
-                        <td ><input type="checkbox" name="pushcheck" value="{$new.news_id}"></td>
-                        <td><input size=4 type='text'  name='{listorder[{$new.news_id}]}' value="{$new.listorder}" class="text-center"/></td><!--6.7-->
+                        <td ><input type="checkbox" name="pushcheck" value="{$new.news_id}" ></td>
+                        <td><input size=4 type='text'  name='listorder[{$new.news_id}]' value="{$new.listorder}" class="text-center"/></td><!--6.7-->
                         <td >{$new.news_id}</td>
                         <td>{$new.title}</td>
                         <td>{$new.catid|getCatName=$website,###}</td>
@@ -83,9 +83,9 @@
                           {$new.thumb|isThumb}
                         </td>
                         <td>{$new.create_time|date="Y-m-d H:i",###}</td>
-                        <td><span  attr-status="{$new.status}"  attr-id="{$new.status}" class="sing_cursor singcms-on-off" id="singcms-on-off" >{$new.status|getNewStatus}</span></td>
-                        <td><span class="sing_cursor glyphicon glyphicon-edit" aria-hidden="true" id="singcms-edit" attr-id="" ></span>
-                          <a href="javascript:void(0)" id="singcms-delete"  attr-id=""  attr-message="删除">
+                        <td><span  attr-status="<if condition="$new['status'] eq 1">0<else/>1</if>"  attr-id="{$new.news_id}" class="sing_cursor singcms-on-off" id="singcms-on-off" >{$new.status|getStatus}</span></td>
+                        <td><span class="sing_cursor glyphicon glyphicon-edit" aria-hidden="true" id="singcms-edit" attr-id="{$new.news_id}" ></span>
+                          <a href="javascript:void(0)" id="singcms-delete"  attr-id="{$new.news_id}"  attr-message="删除">
                             <span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                           </a>
 

@@ -37,8 +37,10 @@
 						<label for="inputname" class="col-sm-2 control-label">选择推荐位:</label>
 						<div class="col-sm-5">
 							<select class="form-control" name="position_id">
-
-									<option value=""></option>
+									<option value='0' >全部推荐位</option>
+                            <volist name="positions" id="ps">
+                                <option value="{$ps.id}" >{$ps.name}</option>
+                            </volist>
 							</select>
 						</div>
 					</div>

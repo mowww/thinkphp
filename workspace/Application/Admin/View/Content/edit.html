@@ -23,10 +23,8 @@
         </div>
       </div>
       <!-- /.row -->
-
       <div class="row">
         <div class="col-lg-6">
-
           <form class="form-horizontal" id="singcms-form">
             <div class="form-group">
               <label for="inputname" class="col-sm-2 control-label">标题:</label>
@@ -75,7 +73,7 @@
               <label for="inputname" class="col-sm-2 control-label">来源:</label>
               <div class="col-sm-5">
                 <select class="form-control" name="copyfrom">
-                  <foreach name="copyfrom" item="cfrom">
+                  <foreach name="copyFrom" item="cfrom">
 
                     <option value="{$key}" <if condition="$key eq $news['copyfrom']">selected="selected"</if>>{$cfrom}</option>
                   </foreach>
@@ -102,7 +100,6 @@
               </div>
             </div>
             <input type="hidden" name="news_id" value="{$news.news_id}"/>
-
             <div class="form-group">
               <div class="col-sm-offset-2 col-sm-10">
                 <button type="button" class="btn btn-default" id="singcms-button-submit">提交</button>
