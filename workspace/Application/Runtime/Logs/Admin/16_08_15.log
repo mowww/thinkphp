@@ -1,0 +1,218 @@
+[ 2016-08-15T09:07:19+08:00 ] 127.0.0.1 /admin.php?c=Login&a=Check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0624s ]
+SQL: SELECT * FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-15T09:07:40+08:00 ] 127.0.0.1 /admin.php?c=user
+ERR: 无法加载控制器:User
+
+[ 2016-08-15T09:13:37+08:00 ] 127.0.0.1 /admin.php?c=basic
+ERR: 无法加载控制器:Basic
+
+[ 2016-08-15T09:32:06+08:00 ] 127.0.0.1 /admin.php?c=content
+ERR: 无法加载控制器:Content
+
+[ 2016-08-15T09:40:20+08:00 ] 127.0.0.1 /admin.php?c=basic
+ERR: 无法加载控制器:Basic
+
+[ 2016-08-15T09:40:48+08:00 ] 127.0.0.1 /admin.php?c=basic
+ERR: Think\Controller:dispaly方法不存在！
+
+[ 2016-08-15T10:12:26+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\BasicModel.class.php 第 4 行.
+ERR: 1146:La table 'thinkphp.basic' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `basic`
+ERR: 1146:La table 'thinkphp.basic' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `basic`
+
+[ 2016-08-15T10:12:34+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\BasicModel.class.php 第 4 行.
+ERR: 1146:La table 'thinkphp.basic' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `basic`
+ERR: 1146:La table 'thinkphp.basic' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `basic`
+
+[ 2016-08-15T10:14:33+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-08-15T10:14:43+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-08-15T10:14:46+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\BasicModel.class.php 第 4 行.
+ERR: 1146:La table 'thinkphp.basic' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `basic`
+ERR: 1146:La table 'thinkphp.basic' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `basic`
+
+[ 2016-08-15T10:16:05+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\BasicModel.class.php 第 4 行.
+ERR: 1146:La table 'thinkphp.basic' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `basic`
+ERR: 1146:La table 'thinkphp.basic' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `basic`
+
+[ 2016-08-15T10:20:38+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\BasicModel.class.php 第 4 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-15T10:20:40+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\BasicModel.class.php 第 4 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-15T10:21:14+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\BasicModel.class.php 第 4 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-15T10:24:15+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\BasicModel.class.php 第 4 行.
+
+[ 2016-08-15T10:43:56+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\BasicModel.class.php 第 4 行.
+
+[ 2016-08-15T10:46:03+08:00 ] 127.0.0.1 /admin.php?c=user
+ERR: 无法加载控制器:User
+
+[ 2016-08-15T10:48:21+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\BasicModel.class.php 第 4 行.
+
+[ 2016-08-15T10:49:50+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\BasicModel.class.php 第 4 行.
+
+[ 2016-08-15T10:50:20+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\BasicModel.class.php 第 4 行.
+
+[ 2016-08-15T10:50:39+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\BasicModel.class.php 第 4 行.
+
+[ 2016-08-15T10:53:46+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2048] Declaration of Admin\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\BasicModel.class.php 第 4 行.
+
+[ 2016-08-15T10:54:42+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\BasicModel.class.php 第 4 行.
+
+[ 2016-08-15T10:54:56+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\BasicModel.class.php 第 4 行.
+
+[ 2016-08-15T10:57:21+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\BasicModel.class.php 第 4 行.
+
+[ 2016-08-15T10:58:32+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\BasicModel.class.php 第 4 行.
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2016-08-15T10:58:47+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-15T10:58:57+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\wamp\www\tpwww\workspace\Application\Admin\Model\BasicModel.class.php 第 4 行.
+
+[ 2016-08-15T10:59:01+08:00 ] 127.0.0.1 /admin.php?c=user
+ERR: 无法加载控制器:User
+
+[ 2016-08-15T11:22:39+08:00 ] 127.0.0.1 /admin.php?c=menu&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0050s ]
+SQL: UPDATE `menu` SET `listorder`='0' WHERE `menu_id` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `menu` SET `listorder`='0' WHERE `menu_id` = 6 [ RunTime:0.0010s ]
+SQL: UPDATE `menu` SET `listorder`='1' WHERE `menu_id` = 8 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: error C:\wamp\www\tpwww\workspace\Application\Admin\Controller\MenuController.class.php 第 113 行.
+
+[ 2016-08-15T11:22:55+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: menu_id C:\wamp\www\tpwww\workspace\Application\Admin\Controller\MenuController.class.php 第 43 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0070s ]
+SQL: INSERT INTO `menu` (`name`,`type`,`m`,`c`,`f`,`status`) VALUES ('w','0','w','w','w','1') [ RunTime:0.0010s ]
+
+[ 2016-08-15T11:23:46+08:00 ] 127.0.0.1 /admin.php?c=menu&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\tpwww\workspace\Application\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0070s ]
+SQL: UPDATE `menu` SET `status`='-1' WHERE `menu_id` = 17 [ RunTime:0.0010s ]
+
+[ 2016-08-15T13:30:22+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\wamp\www\tpwww\workspace\Application\Common\Model\BasicModel.class.php 第 4 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) C:\wamp\www\tpwww\workspace\Application\Common\Model\BasicModel.class.php 第 4 行.
+

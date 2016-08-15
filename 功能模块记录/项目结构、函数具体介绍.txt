@@ -23,6 +23,7 @@ Application/Common/function.php:
 ************************admin模块***************************
 
 ************************************************************
+Application/Common/
 MODEL层
     Admin类:
         getadminbyusername($username) 数据库查找账号信息
@@ -53,6 +54,9 @@ MODEL层
         insert() 插入文章数据到news_content表 
         find($id) 获取副表要修改的文章数据操作
         updateNewsById($id,$data) 存储主表要修改的文章数据操作
+    BasicModel类:
+        save() 保存缓存
+        select() 读取缓存
 Controller层
     Index控制器:
         index()  判断session,已登录跳转菜单页，否则到登录页。
@@ -78,6 +82,8 @@ Controller层
         setStatus() 更改状态
         listorder()  排序操作，修改排序顺序
         push() 存储文章信息到推荐位表
+    Basic控制器继承common:
+        add() 保存缓存逻辑
     Common控制器:
         _init() 初始化，根据有无登录，跳转页面。每次访问关于后台的页面，都会检验登录。登录过期(session过期)，就跳转到登陆界面。
         getLoginUser() 获取登录用户信息

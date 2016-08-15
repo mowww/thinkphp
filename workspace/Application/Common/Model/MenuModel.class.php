@@ -1,5 +1,5 @@
 <?php
-namespace Admin\Model;
+namespace Common\Model;
 use Think\Model;
 
 class MenuModel extends Model{
@@ -13,7 +13,7 @@ class MenuModel extends Model{
        }  
        return $this->_db->add($data);
     }
-    public function getMenu($data,$page,$pagesize=10){
+    public function getMenu($data = array(),$page = 1,$pagesize=10){
         //获取不是删除status=-1的数据 
         $data['status'] = array('neq',-1);
        //起始位置 

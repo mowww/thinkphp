@@ -1,5 +1,5 @@
 <?php
-namespace Admin\Model;
+namespace Common\Model;
 use Think\Model;
 
 /**
@@ -13,10 +13,10 @@ class PositionModel extends Model {
 		$this->_db = M('position');
 	}
 
-	public function select($data = array()) {
+	public function select($data = array(),$limit=3) {
 
 		$conditions = $data;
-		$list = $this->_db->where($conditions)->order('id')->select();
+		$list = $this->_db->where($conditions)->limit($limit)->order('id')->select();
 		return $list;
 	}
 
